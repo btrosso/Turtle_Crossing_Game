@@ -1,0 +1,16 @@
+***Requirements***
+* Move the turtle across the screen using the "UP" key (cant go back/left/right)
+* Cars need to be randomly generated along the y-axis and move left across the screen
+* When the turtle hits the top edge of the screen, it moves back to the original position and the player levels up.
+      On the next level, the car speed increases.
+* When the turtle collides with a car, it's game over and everything stops.
+
+***TO DO LIST***
+TODO: 1. start building out the player class - this will be my player turtle
+TODO: 2. create the key-bind for the up arrow to move the turtle
+TODO: 3. start building out the car class, first generate one car at a random point and then get it to move across
+TODO: 4. generate multiple cars at different times and make them move across the screen
+TODO: 5. create the logic for when a turtle hits the top edge of the screen, he gets rest back at the bottom
+TODO: 6. when the turtle gets reset the cars move faster (remember the trick from pong - decrease time.sleep() / *= 0.9
+TODO: 7. detect collision with car
+TODO: 8. create logic for when turtle gets hit game over
